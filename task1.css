@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(to right, #1d1e20, #243b55);
+  color: white;
+  text-align: center;
+}
+
+header, footer {
+  padding: 2em;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 3em;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
